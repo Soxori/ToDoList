@@ -1,0 +1,45 @@
+/*App/Flex styling*/
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+  font-family: "DM Sans", sans-serif;
+}
+.listItemDiv {
+  font-size: 15px;
+  box-shadow: 4px 5px rgba(158, 133, 133, 0.5);
+  display: flex;
+  width: 200px;
+  height: 100%;
+  margin-top: 5px;
+  background-color: rgb(203, 237, 240);
+}
+.listItems {
+  width: 100%;
+}
+/*Inputs styling*/
+input {
+  padding:10px;
+  border-radius:10px;
+  box-shadow: 4px 5px rgba(158, 133, 133, 0.5);
+  border: none;
+  margin-top: 0.25%;
+  margin-bottom: 1%;
+  outline: none;
+}
+/*Buttons styling*/
+button {
+  cursor: pointer;
+}
+.SubmitButton, .ClearButton{
+  width: 7%;
+}
+.DoneButton {
+  border-width: 2px;
+  margin-bottom: 5px;
+  border: none;
+  font-size: 15px;
+  background-color: rgb(85, 202, 212);
+}
